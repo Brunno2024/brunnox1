@@ -21,7 +21,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
-║    ◉— *𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭* —◉
+║  ◥꧁☠︎ ¡Brunnox BOT! ☠︎꧂◤
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
 ║➤ *𝗛ola, ${taguser}*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
@@ -58,6 +58,8 @@ ${readMore}
 ┣ ඬ⃟ 🎖️ _${usedPrefix}prostituto *<nombre / @tag>*_
 ┣ ඬ⃟ 🎖️ _${usedPrefix}prostituta *<nombre / @tag>*_
 ┣ ඬ⃟ 🎖️ _${usedPrefix}gay2 *<nombre / @tag>*_
+┣ ඬ⃟ 🎖️ _${usedPrefix}bandida *<nombre / @tag>*_
+┣ ඬ⃟ 🎖️ _${usedPrefix}coger *<nombre / @tag>*_
 ┣ ඬ⃟ 🎖️ _${usedPrefix}lesbiana *<nombre / @tag>*_
 ┣ ඬ⃟ 🎖️ _${usedPrefix}pajero *<nombre / @tag>*_
 ┣ ඬ⃟ 🎖️ _${usedPrefix}pajera *<nombre / @tag>*_
@@ -187,7 +189,7 @@ ${readMore}
 ┣ ඬ⃟ 💎 _${usedPrefix}grouptime *<opcion> <tiempo>*_
 ┣ ඬ⃟ 💎 _${usedPrefix}promote *<@tag>*_
 ┣ ඬ⃟ 💎 _${usedPrefix}demote *<@tag>*_
-┣ ඬ⃟ 💎 _admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
+┣ ඬ⃟ 💎 _${usedPrefix}admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 ┣ ඬ⃟ 💎 _${usedPrefix}demote *<@tag>*_
 ┣ ඬ⃟ 💎 _${usedPrefix}infogroup_
 ┣ ඬ⃟ 💎 _${usedPrefix}resetlink_
@@ -260,6 +262,7 @@ ${readMore}
 ┣ ඬ⃟ 👾 _${usedPrefix}kpop *<blackpink / exo / bts>*_
 ┣ ඬ⃟ 👾 _${usedPrefix}cristianoronaldo_
 ┣ ඬ⃟ 👾 _${usedPrefix}messi_
+┣ ඬ⃟ 👾 _${usedPrefix}grrr
 ┣ ඬ⃟ 👾 _${usedPrefix}cat_
 ┣ ඬ⃟ 👾 _${usedPrefix}dog_
 ┣ ඬ⃟ 👾 _${usedPrefix}meme_
